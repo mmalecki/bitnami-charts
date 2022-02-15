@@ -85,6 +85,7 @@ rules:
       - tcproutes
       - tlsroutes
       - udproutes
+      - referencepolicies
     verbs:
       - get
       - list
@@ -98,6 +99,7 @@ rules:
       - tcproutes/status
       - tlsroutes/status
       - udproutes/status
+      - referencepolicies/status
     verbs:
       - update
   - apiGroups:
